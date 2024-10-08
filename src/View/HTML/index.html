@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigos Pet Shop</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            Amigos Pet Shop
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#Sobre">Sobre Nós</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#cadastro">Cadastre-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Bem-vindo ao Amigos Pet Shop</h1>
+        <section id="home">
+            <div class="container">
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="../images/carousel1.png" alt="Imagem 1">
+                        <img src="../images/carousel2.png" alt="Imagem 2">
+                        <img src="../images/carousel3.png" alt="Imagem 3">
+                        <img src="../images/carousel4.png" alt="Imagem 4">
+                    </div>
+
+                    <div class="carousel-nav">
+                        <button onclick="showPrevImage()">&#10094;</button>
+                        <button onclick="showNextImage()">&#10095;</button>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h2>Tudo que seu pet precisa</h2>
+                    <p>
+                    <ul>
+                        <li>Manter seu pet limpinho e com a pelagem saudável é fundamental. Nossa equipe especializada
+                            em banho e tosa utiliza produtos de qualidade para garantir a higiene e o bem-estar do seu
+                            amigo. Além de deixá-lo cheiroso, o serviço ajuda a prevenir doenças de pele, parasitas e
+                            mantém o pet sempre confortável.</li>
+                        <br>
+                        <li>Seu pet merece conforto! Nossas camas e almofadas são projetadas para proporcionar o melhor
+                            descanso. Também contamos com coleiras, guias, bebedouros e comedouros que combinam
+                            praticidade e estilo.</li>
+                        <br>
+                        <li>Cuidar da saúde do seu pet é prioridade. Trabalhamos com uma linha de antipulgas,
+                            vermífugos, vitaminas e outros suplementos para garantir que ele esteja sempre protegido e
+                            com o sistema imunológico fortalecido.</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <article>
+            <h2>Por que confiar no Amigos Pet Shop?</h2>
+            <div>No Amigos Pet Shop, sua confiança é nossa prioridade. Oferecemos uma combinação de experiência e
+                dedicação para garantir que seu pet receba o melhor cuidado possível. Cada detalhe é pensado com
+                carinho, desde os serviços de higiene até os produtos que oferecemos para o bem-estar do seu
+                companheiro. Nossa equipe é apaixonada por animais e está sempre à disposição para fornecer atendimento
+                personalizado, com soluções que atendem às necessidades específicas de cada pet.</div>
+        </article>
+
+        <section id="contato">
+            <h2>Mande sua mensagem e tire todas suas dúvidas</h2>
+            <div class="container contact-form">
+                <form action="#" method="post">
+                    <label for="email">E-mail </label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu E-mail" required>
+
+                    <label for="phone">Telefone </label>
+                    <input type="tel" id="phone" name="phone" placeholder="Digite seu Telefone" required>
+
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" placeholder="Escreva sua mensagem aqui..."
+                        required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <script src="../JavaScript/index.js"></script>
+    </main>
+
+</body>
+
+<footer>
+    <p>© 2024 Amigos Pet Shop - Todos os direitos reservados</p>
+</footer>
+
+</html>

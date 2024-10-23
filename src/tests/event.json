@@ -1,0 +1,10 @@
+{
+    "requestContext": {
+      "http": {
+        "method": "POST",
+        "path": "/message"
+      }
+    },
+    "body": "{\"id\":\"132\",\"email\":\"jaozin@examaple.coma\",\"phone\":\"1143234234\",\"message\":\"oiioisalveeeee\"}"
+  }
+  
